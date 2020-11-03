@@ -22,9 +22,6 @@ $data = http_request("https://api.kawalcorona.com/indonesia/provinsi/");
 
 $data = json_decode($data, TRUE);
 
-// echo "<pre>" ;
-//     print_r($data);
-// echo "</pre>";
 
 $jumlah=count($data);
 $nomor = 1;
